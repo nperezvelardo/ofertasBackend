@@ -17,7 +17,7 @@ class CreateOfertasTable extends Migration
             $table->id();
             $table->string('empresa', 20);
             $table->date('fecha');
-            $table->string('informacion', 250);
+            $table->string('informacion', 1000);
             $table->string('pdf', 100);
             $table->timestamps();
         });
